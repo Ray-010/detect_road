@@ -5,7 +5,7 @@ from copy import deepcopy
 import statistics
 import math
 #対象画像読み込み
-img=cv2.imread("miti1.jpg")
+img=cv2.imread("./images/miti1.jpg")
 
 img_b=cv2.medianBlur(img,3)
 #カーネルの設定
